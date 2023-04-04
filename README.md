@@ -17,7 +17,7 @@ After Creating the key use this command
 Add this key to github under Settings, your profile, 
 
 See this screenshot for the established connection: 
-![alt text](https://github.com/MSuren81/Udacity2023_CICD_Project/blob/9168a32bf7ecc49d5baaf4cd1d08126b8ae43bd4/images/2023-04-04%2020_26_54-Azure-Github-Connection.png "Connecting Azure and GitHub")
+![alt text](/images/2023-04-04 20_26_54-Azure-Github-Connection.png"Connecting Azure and GitHub")
 
 ## Project Scaffolding
 * Create a Make file
@@ -81,3 +81,8 @@ def teardown_function(function):
 def test_hello_subtract():
     assert subtract(test_hello_subtract.x) == 9
 ```
+
+## run make all in the virtual environment
+run `make all` on your local virtual environment. 
+See this screenshot for the result:
+![Alt text](/images/2023-04-04%2021_13_51-make-all-on-local.png "Make all on local")
