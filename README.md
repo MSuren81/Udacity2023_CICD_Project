@@ -35,4 +35,8 @@ lint:
 
 all: install lint test
 ```
-
+* Create a requirements.txt file
+``` txt
+pylint
+pytest
+```
