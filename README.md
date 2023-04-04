@@ -101,10 +101,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python 3.5
+    - name: Set up Python 3.11
       uses: actions/setup-python@v1
       with:
-        python-version: 3.5
+        python-version: 3.11
     - name: Install dependencies
       run: |
         make install
@@ -115,3 +115,9 @@ jobs:
       run: |
         make test
 ```
+The actions will be executed after a push to the branch. 
+Please note that you adjust your python version in the yml file above
+This Image will show the results after the run. 
+
+![Alt text](/images/2023-04-04%2023_05_39-Actions-executed.png "GitHub Action executed")
+![Alt text](/images/2023-04-04%2023_03_36-Github-Actionbuild-test.png "Pylint and test")
