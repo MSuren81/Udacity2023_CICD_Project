@@ -40,3 +40,8 @@ all: install lint test
 pylint
 pytest
 ```
+
+## Create a virtual environment for python in AZ
+`python3 -m venv ~/.Udacity-CICD-Project`
+`source ~/.Udacity-CICD-Project/bin/activate`
+
