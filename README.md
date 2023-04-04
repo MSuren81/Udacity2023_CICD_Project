@@ -86,3 +86,32 @@ def test_hello_subtract():
 run `make all` on your local virtual environment. 
 See this screenshot for the result:
 ![Alt text](/images/2023-04-04%2021_13_51-make-all-on-local.png "Make all on local")
+
+
+## added github action for testing
+``` yml
+name: Python application test with Github Actions
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.5
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.5
+    - name: Install dependencies
+      run: |
+        make install
+    - name: Lint with pylint
+      run: |
+        make lint
+    - name: Test with pytest
+      run: |
+        make test
+```
