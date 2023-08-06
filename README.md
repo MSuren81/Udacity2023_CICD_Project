@@ -155,6 +155,8 @@ $  source c:/_git/Udacity2023_CICD_Project/.venv/Scripts/activate
 (.venv) 
 ```
 
+## Next steps
+
 ## ToDos 
 
 * Project running on Azure App Service
