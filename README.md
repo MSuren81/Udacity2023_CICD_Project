@@ -155,7 +155,7 @@ $  source c:/_git/Udacity2023_CICD_Project/.venv/Scripts/activate
 (.venv) 
 ```
 
-## Next steps
+*Test der Pipeline
 
 ## ToDos 
 
